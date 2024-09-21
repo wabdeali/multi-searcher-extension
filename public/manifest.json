@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Multi Search Extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension that can search using multiple search engines at once.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"]
+}
