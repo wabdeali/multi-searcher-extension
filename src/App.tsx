@@ -10,7 +10,7 @@ function App() {
   return (
     <main>
       <div className="text=center min-w-[500px]">
-        <TypographyH1>Multi Search</TypographyH1>
+        <TypographyH1>Multi Search 🕵️</TypographyH1>
         <SearchForm setSubmittedSearchValue={setSubmittedSearchValue} />
         {submittedSearchValue ? (
           <SearchResults submittedSearchValue={submittedSearchValue} />
